@@ -10,6 +10,8 @@ const app = express();
 
 
 // use created express application to implement middleware
+// middleware concept: you add functions hooked into the funnel through which request goes
+// you either have next to reach next middleware or you return a response
 
 app.use((req, res, next) => {
     console.log('In the middleware!');
