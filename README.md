@@ -13,6 +13,6 @@ npm install - install node_module dependencies specific to project
 
 ## Section: Node Server Express
 
-## Setting up
+### Setting up
 
 npm install --save express
